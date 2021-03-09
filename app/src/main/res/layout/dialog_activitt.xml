@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#33BBFFFF"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:layout_alignParentBottom="true"
+        layout="@layout/safe_action_card"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-20dp"
+        android:layout_width="match_parent" />
+
+</RelativeLayout>
