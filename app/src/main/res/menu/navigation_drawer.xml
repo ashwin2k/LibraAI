@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/group1"
+
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"
+            app:iconTint="@color/white"
+            android:iconTint="@color/white"
+
+            android:checked="true" />
+        <item
+            android:id="@+id/item_contact"
+            android:icon="@drawable/ic_add"
+            app:iconTint="@color/white"
+            android:iconTint="@color/white"
+
+            android:title="Add Contacts" />
+        <item
+            android:id="@+id/item_help"
+            android:icon="@drawable/ic_information"
+            app:iconTint="@color/white"
+            android:iconTint="@color/white"
+            android:title="Help" />
+    </group>
+</menu>
