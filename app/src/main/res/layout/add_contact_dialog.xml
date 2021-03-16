@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    app:cardBackgroundColor="@color/primaryBG"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/primaryBG"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#a8d4cc"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="120dp"
+                app:lottie_autoPlay="true"
+                android:layout_margin="16dp"
+                app:lottie_speed="1.5"
+
+                android:layout_gravity="center_horizontal"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/help_grow"
+                android:layout_height="120dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunitosans_bold"
+            android:layout_marginTop="15dp"
+            android:textSize="22dp"
+            android:layout_marginHorizontal="10dp"
+            android:id="@+id/loading_text"
+            android:textColor="#FFF"
+            android:layout_gravity="center_horizontal"
+            android:text="Add an emergency contact"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="20dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/nunitosans_medium"
+            android:layout_gravity="center"
+            android:text="Add your close friends and family members so that we will message them when something goes wrong."
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="20dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+            android:hint="Phone number">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:imeOptions="actionDone"
+                android:id="@+id/contact_inp"
+                android:maxLength="10"
+                android:textColor="@color/white"
+                android:inputType="phone"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <RelativeLayout
+            android:layout_width="110dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/add_contact"
+            android:layout_gravity="right"
+            android:background="@drawable/round_bluegrad"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:text="ADD"
+                android:textFontWeight="500"
+                android:textColor="@color/white"
+
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/nunitosans"
+
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

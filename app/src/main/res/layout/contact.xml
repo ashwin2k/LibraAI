@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="20dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    app:cardCornerRadius="12dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp">
+
+        <TextView
+            android:padding="10dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/nunitosans_regular"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            android:id="@+id/contact_number"
+            android:textColor="#EEE"
+            android:textSize="15dp"/>
+
+
+<!--        <TextView-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="#EEE"-->
+<!--            android:textSize="15dp"-->
+<!--            android:fontFamily="@font/nunitosans_regular"-->
+<!--            android:text="Contact Number"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_marginHorizontal="8dp"-->
+<!--            android:id="@+id/textViewContactNumber"-->
+<!--            />-->
+
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

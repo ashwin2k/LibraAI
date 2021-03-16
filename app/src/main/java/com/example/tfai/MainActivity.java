@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
             Log.d("LOAD", "LOADED SUCCESSFULLY");
             Intent serviceIntent = new Intent(this, RecorderService.class);
             serviceIntent.putExtra("inputExtra", "Foreground Service Example in Android");
+            serviceIntent.setAction("ACTION_START_FOREGROUND_SERVICE");
             startService(serviceIntent);
 
         } catch (IOException e) {
