@@ -17,11 +17,11 @@ An AI voice-emergency assistant! **Won 4th place at Hack 'N' Tackle hackathon.**
 ## To run the app
 Clone the project and build the apk using Android Studio!
 
-## To see our hackathon pitch deck, click ![here](https://docs.google.com/presentation/d/1AtgSaQdJdMD_8jf7kf5ynEo-peDvuvPh/edit?usp=share_link&ouid=100827058064004915685&rtpof=true&sd=true)
+## To see our hackathon pitch deck, click [here](https://docs.google.com/presentation/d/1AtgSaQdJdMD_8jf7kf5ynEo-peDvuvPh/edit?usp=share_link&ouid=100827058064004915685&rtpof=true&sd=true)
 
 ## Demo Video:
-![Demo1](https://drive.google.com/file/d/1TNwj7U_D7p0tSuSEAVEq5xn7j6MFzwyO/view?usp=share_link)
-![Demo2](https://drive.google.com/file/d/1TnZqh-mE0QAiPKiL3zcJFYmTA_ToFHYq/view?usp=share_link)
+[Demo1](https://drive.google.com/file/d/1TNwj7U_D7p0tSuSEAVEq5xn7j6MFzwyO/view?usp=share_link)
+[Demo2](https://drive.google.com/file/d/1TnZqh-mE0QAiPKiL3zcJFYmTA_ToFHYq/view?usp=share_link)
 
 ## Neural Network Architecture
 We use a GRU based architecture as shown here:
